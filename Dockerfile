@@ -14,7 +14,7 @@ RUN apt-get update -y && apt-get install -y wget \
 RUN wget https://github.com/medusa-project/cantaloupe/releases/download/v${CANTALOUPE_VERSION}/Cantaloupe-${CANTALOUPE_VERSION}.zip \
     && unzip Cantaloupe-${CANTALOUPE_VERSION}.zip \
     && rm Cantaloupe-${CANTALOUPE_VERSION}.zip
-    
+
 COPY cantaloupe.properties Cantaloupe-${CANTALOUPE_VERSION}/
 
 WORKDIR Cantaloupe-${CANTALOUPE_VERSION}
