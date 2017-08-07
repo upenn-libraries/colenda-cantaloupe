@@ -4,6 +4,6 @@ services:
 
   cantaloupe:
     restart: 'unless-stopped'
-    image: 'colenda_cantaloupe:latest'
+    image: 'colendaloupe:latest'
     ports:
       - '8182:8182'
