@@ -6,8 +6,6 @@ MAINTAINER Katherine Lynch <katherly@upenn.edu>
 
 ENV CANTALOUPE_VERSION 3.3
 
-VOLUME /image_root
-
 RUN apt-get update -y && apt-get install -y wget \
     unzip
 

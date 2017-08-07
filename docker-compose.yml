@@ -7,7 +7,3 @@ services:
     image: 'colenda_cantaloupe:latest'
     ports:
       - '8182:8182'
-    env_file:
-      - '.env'
-    volumes:
-      - '${LOCAL_IMAGES}:/image_root'
