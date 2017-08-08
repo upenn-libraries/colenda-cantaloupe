@@ -22,4 +22,4 @@ RUN mv Cantaloupe-${CANTALOUPE_VERSION}.war Cantaloupe.war
 
 EXPOSE 8182
 
-CMD ["java", "-Dcantaloupe.config=cantaloupe.properties", "-Xmx800m", "-jar", "Cantaloupe.war"]
+CMD ["java", "-Dcantaloupe.config=cantaloupe.properties", "-Xmx1200m", "-jar", "Cantaloupe.war"]
