@@ -8,6 +8,7 @@ ENV CANTALOUPE_VERSION 3.3
 
 RUN apt-get update -y && apt-get install -y default-jdk \
     default-jre \
+    imagemagick \
     wget \
     unzip
 
