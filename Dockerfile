@@ -2,13 +2,10 @@ FROM ubuntu:16.04
 
 # Based on Cantaloupe image by Richard Rodgers <http://orcid.org/0000-0003-1412-5595>
 
-MAINTAINER Katherine Lynch <katherly@upenn.edu>
-
 ENV CANTALOUPE_VERSION 3.3
 
 RUN apt-get update -y && apt-get install -y default-jdk \
     default-jre \
-    imagemagick \
     wget \
     unzip
 

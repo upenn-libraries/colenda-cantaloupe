@@ -7,3 +7,5 @@ services:
     image: 'colenda_cantaloupe:latest'
     ports:
       - '8182:8182'
+    volumes:
+      - ./images_path:/images_path
