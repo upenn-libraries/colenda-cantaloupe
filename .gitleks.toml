@@ -1,1 +1,8 @@
+title = "gitlab gitleaks config"
 
+# Global allowlist
+[allowlist]
+    description = "Global Allowlists"
+    commits = [
+        '''c94bae197f01f2088dde2ccd98f5213f501c12d0'''
+    ]
