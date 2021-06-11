@@ -231,7 +231,7 @@ processor.bmp =
 processor.dcm =
 processor.gif =
 processor.jp2 = KakaduProcessor
-processor.jpg =
+processor.jpg = ImageMagickProcessor
 processor.mov = FfmpegProcessor
 processor.mp4 = FfmpegProcessor
 processor.mpg = FfmpegProcessor
@@ -594,6 +594,3 @@ log.access.SyslogAppender.enabled = false
 log.access.SyslogAppender.host =
 log.access.SyslogAppender.port = 514
 log.access.SyslogAppender.facility = LOCAL0
-
-
-
